@@ -1,0 +1,9 @@
+set GOARCH=amd64
+set GOOS=linux
+go build main.go
+
+复制configs文件
+
+运行：
+chmod a+x ./main
+nohup ./main &

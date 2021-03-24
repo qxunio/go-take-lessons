@@ -1,0 +1,16 @@
+[app]
+port = "9000"
+loginTime = 1800
+
+[mysql]
+host = "localhost:3306"
+user = "root"
+password = "123456"
+dbName = "take_lessons"
+maxIdle = 50
+maxOpen = 35
+
+[redis]
+host = "127.0.0.1:6379"
+dbNumber = 0
+
